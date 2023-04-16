@@ -5,3 +5,7 @@ color: #486FA6
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #486FA625;
+}

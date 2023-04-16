@@ -9,7 +9,7 @@ export default function Header() {
         if(route === location.pathname) return true;
     };
     return (
-        <div className="header border-b-4 border-b-gray-100 bg-white">
+        <div className="header border-b-4 border-b-gray-100 bg-white z-10 sticky">
             <header className="flex flex-col sm:flex-row sm:justify-between items-center w-full md:w-5/6 m-auto">
                 <img src={Logo} className="logo cursor-pointer h-12 sm:h-20" onClick={() => navigate('/')} alt="Realtor Logo" />
                 <div className="nav">
